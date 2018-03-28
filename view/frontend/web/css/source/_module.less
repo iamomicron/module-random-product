@@ -1,0 +1,38 @@
+/**
+ * Copyright © Rob Aimes - https://aimes.eu
+ * ----------------------------------------
+ */
+.block.random-product {
+  float: right;
+  margin: 0 10px 0 0;
+  z-index: 4;
+  text-align: right;
+  float: right;
+  position: relative;
+
+  @media all and (min-width: @screen__m) {
+    margin: 0 0 0 10px;
+  }
+
+  .block-title,
+  .block-content {
+    margin-bottom: 0;
+  }
+
+  .block-title {
+    display: none;
+  }
+
+  .block-content {
+    a {
+      font-size: 1.5em;
+      padding: 0 4px;
+      color: @color-gray-middle4;
+      text-decoration: none;
+
+      &:hover {
+        color: #333333;
+      }
+    }
+  }
+}
