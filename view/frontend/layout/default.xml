@@ -9,7 +9,7 @@
     <body>
         <referenceContainer name="header-wrapper">
             <block name="service-worker"
-                   class="Aimes\RandomProduct\Block\RandomProduct"
+                   class="Aimes\RandomProduct\Block\Url"
                    before="top.search"
                    template="Aimes_RandomProduct::random-product.phtml"/>
         </referenceContainer>

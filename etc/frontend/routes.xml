@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright © Rob Aimes - https://aimes.eu
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="aimesrandomproduct" frontName="randomproduct">
+            <module name="Aimes_RandomProduct"/>
+        </route>
+    </router>
+</config>

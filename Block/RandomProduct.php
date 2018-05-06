@@ -86,7 +86,10 @@ class RandomProduct extends Template
             ->setPageSize(1)
             ->setSortOrders([$this->sortOrder]);
 
-        $product = $this->productRepository->getList($this->searchCriteria)->getItems();
+        $product = $this->productRepository
+            ->getList($this->searchCriteria)
+            ->getItems();
+
         return reset($product);
     }
 

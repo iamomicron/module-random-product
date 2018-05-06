@@ -2,13 +2,13 @@
 /**
  * Copyright © Rob Aimes - https://aimes.eu
  */
-/** @var $block \Aimes\RandomProduct\Block\RandomProduct */
+/** @var $block \Aimes\RandomProduct\Block\Url */
 ?>
 <div class="block random-product">
     <div class="block block-title">
         <strong><?= $block->escapeHtml(__('Random Product')) ?></strong>
     </div>
     <div class="block block-content">
-        <a href="<?= $block->getProductUrl() ?>" title="<?= $block->escapeHtml(__('Random Product')) ?>">🔀</a>
+        <a href="<?= $block->getControllerPath() ?>" title="<?= $block->escapeHtml(__('Random Product')) ?>">🔀</a>
     </div>
 </div>
